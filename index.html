@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relojería Elegance | Tienda de Relojes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Elegance</div>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="background: linear-gradient(135deg, rgba(26,26,46,0.9), rgba(22,33,62,0.9)), url('https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=1600&h=900&fit=crop&auto=format') center/cover no-repeat;">
+    <h1>Relojes con Estilo</h1>
+    <p>Descubre nuestra colección exclusiva de relojes para cada ocasión.</p>
+    <a href="productos.html" class="btn">Ver Productos</a>
+  </section>
+
+  <section class="categorias">
+    <h2>Categorías</h2>
+    <div class="categoria-grid">
+      <div class="categoria-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&h=400&fit=crop&auto=format'); background-size: cover; background-position: center; color: #fff;">
+        <h3 style="color: #e94560;">Clásicos</h3>
+        <p>Elegancia atemporal</p>
+      </div>
+      <div class="categoria-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop&auto=format'); background-size: cover; background-position: center; color: #fff;">
+        <h3 style="color: #e94560;">Deportivos</h3>
+        <p>Rendimiento y estilo</p>
+      </div>
+      <div class="categoria-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=400&fit=crop&auto=format'); background-size: cover; background-position: center; color: #fff;">
+        <h3 style="color: #e94560;">Lujo</h3>
+        <p>Exclusividad y prestigio</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="destacados">
+    <h2>Más Vendidos</h2>
+    <div class="productos-grid" id="productos-destacados"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Relojería Elegance. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
